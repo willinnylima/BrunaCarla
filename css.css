@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 50;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    background-image: url('4.jpg');
+    background-size: cover; /* Para cobrir todo o espaço disponível */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar repetir a imagem */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+h3 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+
+}
+
+h4 {
+    text-align: justify; /* Justificar o texto */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+.background-3{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #0056b3;
+    flex-basis: 500px;
+    justify-content: center; 
+    width: 30%; /* Defina a largura do container */
+    margin: 0 auto; /* Define as margens laterais como automáticas */
+
+}
+.container{
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start ;
+    align-items: center;  
+    align-content: space-around;  
+    width: 100%; 
+    background-image: url('20.png');
+    background-size: cover; /* Para cobrir todo o espaço disponível */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar repetir a imagem */
+    position: relative;
+  
+  
+}
+ .item{
+    width: 80%;
+    flex-grow: 2;    
+    flex-basis: 60px;  
+    padding: 20px; /* Espaçamento interno */
+    color: white; /* Cor do texto */
+
+
+
+  }
+
+.anuncio img {
+    width: 130px; /* Defina a largura desejada */
+    height: auto; /* Mantenha a proporção da imagem */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.foto{
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para evitar repetir a imagem */
+    text-align: center; /* Centralizar a imagem */
+
+
+}
+.foto img {
+    width: 200px; /* Defina a largura desejada para a imagem */
+    height: auto; /* Mantenha a proporção da imagem */
+}
+.selected{
+    flex-grow: 1; 
+    flex-basis: 60px;   
+    padding: 20px; /* Espaçamento interno */
+    
+ }
+.cta{
+    display: flex;
+    flex-direction: row; 
+ }
+ .espaco-antes {
+    margin-top: 20px; /* Adiciona um espaço de 20 pixels acima do parágrafo */
+}
